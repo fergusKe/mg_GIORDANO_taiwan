@@ -1,0 +1,19 @@
+@import "compass";
+@import "extend";
+
+.wrap {
+	background: #D4401E url("../images/event/event-bg.png") no-repeat;
+}
+.logo {
+    margin-top: 20px;
+	text-align: center;
+}
+.title {
+    margin-top: -7px;
+	text-align: center;
+}
+.content {
+    margin-top: -11px;
+    margin-bottom: 75px;
+	text-align: center;
+}

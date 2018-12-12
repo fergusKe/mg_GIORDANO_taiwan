@@ -1,0 +1,96 @@
+.wrap {
+  background: url("../images/story/story-bg.jpg") no-repeat;
+}
+
+.logo {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.title {
+  margin-top: 26px;
+  text-align: center;
+}
+
+.step1 .content1 {
+  margin-top: 55px;
+  text-align: center;
+}
+.step1 .content2 {
+  margin-top: 30px;
+  text-align: center;
+}
+.step1 .next-btn {
+  margin-top: 20px;
+  text-align: right;
+  padding-right: 48px;
+  padding-bottom: 100px;
+}
+.step1 .next-btn a {
+  display: inline-block;
+  width: auto;
+}
+
+.step2 {
+  display: none;
+  width: 100%;
+  padding-bottom: 100px;
+}
+.step2 .human {
+  position: relative;
+  width: 535px;
+  height: 260px;
+  margin: 35px auto 0;
+}
+.step2 .human li {
+  position: absolute;
+}
+.step2 .human .Alex {
+  top: 5px;
+  left: 4px;
+  width: 187px;
+  height: 242px;
+  background: url(../images/story/step2-Alex.png);
+}
+.step2 .human .Alex.active {
+  height: 248px;
+  background-position: 0 -242px;
+  z-index: 1;
+}
+.step2 .human .Amy {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 179px;
+  height: 251px;
+  background: url(../images/story/step2-Amy.png);
+}
+.step2 .human .Amy.active {
+  height: 256px;
+  background-position: 0 -251px;
+  z-index: 1;
+}
+.step2 .human .Michelle {
+  left: 348px;
+  width: 191px;
+  height: 246px;
+  background: url(../images/story/step2-Michelle.png);
+}
+.step2 .human .Michelle.active {
+  height: 248px;
+  background-position: 0 -246px;
+  z-index: 1;
+}
+.step2 .info {
+  min-height: 750px;
+  margin: 50px 0 0;
+  text-align: center;
+}
+.step2 .info li {
+  display: none;
+}
+.step2 .info li.active {
+  display: block;
+}
+
+/*# sourceMappingURL=m-story.css.map */

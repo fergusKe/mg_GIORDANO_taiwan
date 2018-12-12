@@ -1,0 +1,64 @@
+// @mixin bg($img)
+// 	background: url("../images/#{$img}")
+// 	width: image-width("../images/#{$img}")
+// 	height: image-height("../images/#{$img}")
+// @mixin text-hide
+// 	white-space: nowrap
+// 	text-indent: 100%
+// 	overflow: hidden
+// @mixin grid($cloum_number,$cloum_gutter,$width)
+// 	width: ($width - $cloum_gutter*($cloum_number - 1) ) / $cloum_number
+// 	margin-right: $cloum_gutter
+// 	-webkit-box-sizing: border-box
+// 	-moz-box-sizing: border-box
+// 	box-sizing: border-box
+// 	&:nth-child(#{$cloum_number}n)
+// 		margin-right: 0
+// //預設是等腰三角形，如要做正三角形，請將type預設變數改為0.8666666   
+// @mixin triangle ($size, $color, $align,$type:1)
+// 	height: 0
+// 	width: 0
+// 	@if $align == top   
+// 		border-bottom: ($size*$type) solid $color
+// 		border-left: ($size/2) solid transparent
+// 		border-right: ($size/2) solid transparent
+// 	@else if $align == right
+// 		border-left: ($size*$type) solid $color
+// 		border-top: ($size/2) solid transparent
+// 		border-bottom: ($size/2) solid transparent
+// 	@else if $align == bottom
+// 		border-top: ($size*$type) solid $color
+// 		border-left: ($size/2) solid transparent
+// 		border-right: ($size/2) solid transparent
+// 	@else if $align == left
+// 		border-right: ($size*$type) solid $color
+// 		border-top: ($size/2) solid transparent
+// 		border-bottom: ($size/2) solid transparent
+// 	@else if $align == right-top
+// 		border-right: $size solid $color
+// 		border-bottom: $size solid transparent
+// 	@else if $align == left-top
+// 		border-left: $size solid $color
+// 		border-bottom: $size solid transparent
+// 	@else if $align == right-bottom
+// 		border-right: $size solid $color
+// 		border-top: $size solid transparent
+// 	@else if $align == left-bottom
+// 		border-left: $size solid $color
+// 		border-top: $size solid transparent
+// @mixin fancy-btn
+// 	$gradient: linear-gradient(45deg, pink, skyblue)
+// 	box-sizing: border-box
+// 	box-shadow: none
+// 	border: none
+// 	font: 2em/1 sans-serif
+// 	padding: 30px 100px
+// 	letter-spacing: 5px
+// 	color: white
+// 	border: solid 4px transparent
+// 	border-image: $gradient
+// 	border-image-slice: 1
+// 	background: $gradient
+// 	-webkit-background-clip: text
+// 	background-clip: text
+// 	text-fill-color: transparent

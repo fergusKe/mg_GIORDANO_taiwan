@@ -1,0 +1,385 @@
+@import "compass";
+@import "extend";
+
+.wrap {
+	background: url("../images/taiwan/taiwan-bg.jpg") no-repeat;
+}
+.logo {
+    margin-top: 20px;
+	text-align: center;
+	z-index: 1;
+}
+.main-title {
+	position: absolute;
+    width: 100%;
+    margin-top: 5px;
+	text-align: center;
+	z-index: 1;
+}
+.step2, .step3, .step4, .step5, .step6, .step7 {
+	display: none;
+}
+.step1 {
+    padding-bottom: 70px;
+	.title {
+	    margin-top: -90px;
+	}
+	.item {
+		margin-top: -88px;
+	    text-align: center;
+	    li {
+	    	&~li {
+	    		margin-top: 17px;
+	    	}
+	    }
+	    a {
+	    	display: inline-block;
+	    	width: auto;
+	    }
+	}
+}
+.step2 {
+    padding-bottom: 70px;
+	.title {
+	    margin-top: -90px;
+	}
+	.item {
+		margin-top: -95px;
+	    text-align: center;
+	    li {
+	    	&~li {
+	    		margin-top: 17px;
+	    	}
+	    }
+	    a {
+	    	display: inline-block;
+	    	width: auto;
+	    }
+	}
+}
+.step3 {
+    padding-bottom: 70px;
+	.title {
+	    margin-top: -90px;
+	}
+	.item {
+		margin-top: -95px;
+	    text-align: center;
+	    li {
+	    	&~li {
+	    		margin-top: 17px;
+	    	}
+	    }
+	    a {
+	    	display: inline-block;
+	    	width: auto;
+	    }
+	}
+}
+.step4 {
+    padding-bottom: 70px;
+	.title {
+	    margin-top: -90px;
+	}
+	.shout {
+		position: relative;
+	    width: 588px;
+	    margin: -95px auto 0;
+		.sub-title {
+		    position: absolute;
+		    top: 105px;
+		    left: 0;
+		    right: 0;
+		    width: 450px;
+		    margin: 0 auto;
+		    .icon {
+		    	display: inline-block;
+		    }
+		    p {
+	    	    position: absolute;
+			    display: inline-block;
+			    top: -3px;
+			    left: 50px;
+			    vertical-align: top;
+			    font-size: 28px;
+			    font-weight: bold;
+			    &~p {
+			    	top: 36px;
+			    }
+		    }
+		    span {
+	    	    font-size: 28px;
+			    padding: 0 5px;
+			    color: #ef1c3c;
+		    }
+		}
+		.shout-input {
+			position: absolute;
+		    top: 276px;
+		    left: 42px;
+		    width: 487px;
+		    height: 55px;
+			background: transparent;
+			padding-left: 15px;
+			font-size: 28px;
+			color: #FFF;
+			border: none;
+		}
+	    .remain-word {
+    	    position: absolute;
+	        left: 410px;
+		    top: 343px;
+		    font-size: 24px;
+		    width: 18px;
+		    text-align: center;
+	    }
+	}
+	.next-btn {
+	    margin-top: 20px;
+	    a {
+    	    width: 170px;
+		    margin: 0 auto;
+	    }
+	}
+}
+.step5 {
+    padding-bottom: 70px;
+	.title {
+	    margin-top: -90px;
+	}
+	.content {
+		position: relative;
+	    width: 621px;
+	    margin: -135px auto 0;
+	    input[type="text"], select {
+    	    border: none;
+		    background: #a2a2a2;
+		    color: #FFF;
+		    font-size: 26px;
+	    }
+	    input[type="text"] {
+			position: absolute;
+    	    left: 158px;
+	    	width: 394px;
+	    	height: 36px;
+	    	padding-left: 10px;
+	    }
+	    .name {
+		    top: 147px;
+	    }
+	    .gender {
+	    	position: absolute;
+	    	left: 194px;
+		    top: 206px;
+		    input {
+		    	position: absolute;
+		    	width: 30px;
+		    	height: 30px;
+		    }
+		    .male {
+	    	    left: 0;
+			    top: 0;
+		    }
+		    .female {
+	    	    left: 101px;
+			    top: 0;
+		    }
+	    }
+	    .year {
+	    	position: absolute;
+    	    left: 158px;
+		    top: 262px;
+		    width: 403px;
+		    height: 39px;
+	    }
+	    .mouth {
+	    	position: absolute;
+    	    left: 158px;
+		    top: 309px;
+		    width: 197px;
+		    height: 39px;
+	    }
+	    .date {
+	    	position: absolute;
+    	    left: 364px;
+		    top: 309px;
+		    width: 197px;
+		    height: 39px;
+	    }
+	    .phone {
+			top: 364px;
+	    }
+	    .mail {
+	    	top: 416px;
+	    }
+	    #field {
+    	    position: absolute;
+		    top: 390px;
+		    left: 210px;
+		    width: 20px;
+		    height: 20px;
+	    }
+	    .law {
+	    	position: absolute;
+	        left: 357px;
+		    top: 473px;
+		    width: 122px;
+		    height: 26px;
+	    	// background: #963;
+	    }
+	    .submit-btn {
+		    position: absolute;
+            left: 218px;
+		    top: 515px;
+			width: 105px;
+			height: 108px;
+			background: url(../images/taiwan/step5/next-btn.png) 0 0;
+		}
+		.reset-btn {
+		    position: absolute;
+            left: 346px;
+		    top: 528px;
+			width: 82px;
+			height: 85px;
+			background: url(../images/taiwan/step5/reset-btn.png) 0 0;
+		}
+		// .shout-input {
+		// 	position: absolute;
+		//     top: 276px;
+		//     left: 42px;
+		//     width: 487px;
+		//     height: 55px;
+		// 	background: transparent;
+		// 	padding-left: 15px;
+		// 	font-size: 28px;
+		// 	color: #FFF;
+		// 	border: none;
+		// }
+	}
+	// .next-btn {
+	//     margin-top: 20px;
+	//     a {
+ //    	    width: 170px;
+	// 	    margin: 0 auto;
+	//     }
+	// }
+}
+.step6 {
+    padding-bottom: 70px;
+	.title {
+	    margin-top: -90px;
+	}
+	.content {
+		position: relative;
+	    width: 621px;
+	    margin: -135px auto 0;
+	    .fb-share-btn {
+		    position: absolute;
+            left: 218px;
+		    top: 478px;
+			width: 132px;
+			height: 135px;
+			background: url(../images/taiwan/step5/fb-share-btn.png) 0 0;
+		}
+	}
+}
+.step7 {
+    padding-bottom: 70px;
+	.title {
+	    margin-top: -90px;
+	}
+	.content {
+		position: relative;
+	    width: 621px;
+	    margin: -135px auto 0;
+	    .story-btn {
+			position: absolute;
+            left: 90px;
+		    top: 202px;
+			width: 252px;
+			height: 312px;
+			background: url(../images/taiwan/step5/story-btn.png) 0 0;
+	    }
+	    .shopping-btn {
+			position: absolute;
+            right: 84px;
+		    top: 165px;
+			width: 175px;
+			height: 178px;
+			background: url(../images/taiwan/step5/shopping-btn.png) 0 0;
+	    }
+	    .again-btn {
+		    position: absolute;
+            right: 84px;
+		    top: 373px;
+			width: 175px;
+			height: 178px;
+			background: url(../images/taiwan/step5/again-btn.png) 0 0;
+		}
+	}
+}
+
+// checkbox
+svg {
+  border: none;
+  display: block;
+}
+
+label {
+	position: absolute;
+    top: 473px;
+    left: 161px;
+	cursor: pointer;
+	// display: block;
+	// font-size: 1.25em;
+	// line-height: 2.5rem;
+	// margin: 0.5em auto;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	// width: 20rem;
+  svg {
+    float: left;
+    width: 27px;  
+    height: 27px;
+    background: #a2a2a2;
+    // margin-right: 0.5rem;
+    rect, polyline {
+      fill: none;
+      stroke-width: 4;
+    }
+    rect {
+      stroke: #a2a2a2;
+    }
+  }
+}
+
+input[type="checkbox"] {
+  display: none;
+  &:checked + label svg {
+    rect {
+      stroke: #a2a2a2;
+    }
+    polyline {
+      stroke: #FFF;
+    }
+    polyline {
+      -webkit-animation: checked 0.5s ease forwards;
+      animation: checked 0.5s ease forwards;
+      stroke-dasharray: 50;
+      stroke-dashoffset: 50;
+    }    
+  }
+}
+
+@-webkit-keyframes checked {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes checked {
+  to {
+    stroke-dashoffset: 0;
+  }
+}

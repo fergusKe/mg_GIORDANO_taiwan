@@ -1,0 +1,114 @@
+@import "compass";
+@import "extend";
+
+a:focus {
+	outline: none;
+}
+input:focus {
+	outline: none;
+}
+a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+html, body {
+	width: 100%;
+    height: 100%;
+}
+.wrap {
+	position: relative;
+	width: 640px;
+	min-height: 960px;
+	margin: 0 auto;
+    overflow: hidden;
+}
+.nav-btn {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 67px;
+	height: 67px;
+	background: url(../images/nav/nav-btn.jpg);
+	z-index: 9999;
+	// &.active {
+	// 	background-position: 0 -67px;
+	// }
+}
+.nav {
+	display: none;
+	position: fixed;
+	width: 640px;
+	height: 100%;
+	background: rgba(0, 0, 0, .8);
+	z-index: 99999;
+	.nav-close-btn {
+		position: absolute;
+		width: 67px;
+		height: 67px;
+		top: 20px;
+		left: 20px;
+		background: url(../images/nav/nav-btn.jpg) 0 -67px;
+	}
+	ul {
+	    margin: 85px 0;
+	}
+	li {
+		
+	}
+	.taiwan {
+		a {
+			padding-left: 146px;
+		}
+	}
+	.event {
+		a {
+			padding-left: 124px;
+		}
+	}
+	.award {
+		a {
+			padding-left: 120px;
+		}
+	}
+	.story {
+		a {
+		    padding-left: 130px;
+		}
+	}
+	.shopping {
+		a {
+			    padding-left: 131px;
+		}
+	}
+	a {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.line {
+		position: relative;
+		left: 15px;
+	    // margin: 15px 0;
+	    padding-left: 146px;
+	}
+}
+.fb-btn {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 44px;
+	height: 44px;
+	background: url(../images/fb-btn.png);
+	z-index: 9999;
+}
+.footer {
+	position: absolute;
+	width: 100%;
+	height: 45px;
+	bottom: 0;
+	background: #000;
+	text-align: center;
+	img {
+		margin-top: 15px;
+	}
+}

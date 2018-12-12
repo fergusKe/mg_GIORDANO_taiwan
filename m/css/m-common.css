@@ -1,0 +1,104 @@
+a:focus {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap {
+  position: relative;
+  width: 640px;
+  min-height: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.nav-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 67px;
+  height: 67px;
+  background: url(../images/nav/nav-btn.jpg);
+  z-index: 9999;
+}
+
+.nav {
+  display: none;
+  position: fixed;
+  width: 640px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 99999;
+}
+.nav .nav-close-btn {
+  position: absolute;
+  width: 67px;
+  height: 67px;
+  top: 20px;
+  left: 20px;
+  background: url(../images/nav/nav-btn.jpg) 0 -67px;
+}
+.nav ul {
+  margin: 85px 0;
+}
+.nav .taiwan a {
+  padding-left: 146px;
+}
+.nav .event a {
+  padding-left: 124px;
+}
+.nav .award a {
+  padding-left: 120px;
+}
+.nav .story a {
+  padding-left: 130px;
+}
+.nav .shopping a {
+  padding-left: 131px;
+}
+.nav a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.nav .line {
+  position: relative;
+  left: 15px;
+  padding-left: 146px;
+}
+
+.fb-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 44px;
+  height: 44px;
+  background: url(../images/fb-btn.png);
+  z-index: 9999;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 45px;
+  bottom: 0;
+  background: #000;
+  text-align: center;
+}
+.footer img {
+  margin-top: 15px;
+}
+
+/*# sourceMappingURL=m-common.css.map */
